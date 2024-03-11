@@ -21,9 +21,21 @@ console.log(myName)*/
  console.log("\nproduct:",product);
  console.log("\ndivision:",division);
  console.log("\ndifference:",difference);*/
-function Sum (a ,b){
+/*function Sum (a ,b){
     let result=a+b
     console.log(result)
 }
 
 Sum(5 ,5)
+*/
+var name=prompt(Enter yourName);
+var age=prompt(enter yourAge);
+if(
+    age>=18 && age<=72){
+        console.log(yourName + is qualified)
+    }
+    else{
+        console.log(yourAame + is not qualified)
+    }
+yourName=Dorcas;
+yourAge=24;
