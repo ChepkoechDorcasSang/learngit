@@ -28,14 +28,25 @@ console.log(myName)*/
 
 Sum(5 ,5)
 */
-var name=prompt(Enter yourName);
-var age=prompt(enter yourAge);
-if(
-    age>=18 && age<=72){
-        console.log(yourName + is qualified)
+// var name=prompt(Enter yourName);
+// var age=prompt(enter yourAge);
+// if(
+//     age>=18 && age<=72){
+//         console.log(yourName + is qualified)
+//     }
+//     else{
+//         console.log(yourAame + is not qualified)
+//     }
+// yourName=Dorcas;
+// yourAge=24;
+
+function DriversLicense(name, age){
+    if (age>=18 && age <=72){
+        console.log(name, "Eligible");
     }
     else{
-        console.log(yourAame + is not qualified)
+        console.log(name, "Not Eligible");
     }
-yourName=Dorcas;
-yourAge=24;
+}
+
+DriversLicense("Denis", 78)
