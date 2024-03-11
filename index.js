@@ -11,7 +11,7 @@ console.log(myName)*/
  else{
     console.log("false")
  }*/
- let myNumber=5
+ /*let myNumber=5
  let myValue=7
  let sum=myNumber+myValue
  let product=myNumber*myValue
@@ -20,4 +20,10 @@ console.log(myName)*/
  console.log("\nsum:",sum);
  console.log("\nproduct:",product);
  console.log("\ndivision:",division);
- console.log("\ndifference:",difference);
+ console.log("\ndifference:",difference);*/
+function Sum (a ,b){
+    let result=a+b
+    console.log(result)
+}
+
+Sum(5 ,5)
